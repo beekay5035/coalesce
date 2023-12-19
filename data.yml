@@ -1,6 +1,13 @@
 defaultStorageMapping: TARGET-STAGE
 installedPackages: {}
-jobs: {}
+jobs:
+  Job-2:
+    excludeSelector: ""
+    id: 2
+    includeSelector: "+{ location: TARGET-STAGE name: DIM_* }  OR +{ location: TARGET-STAGE name: FCT_* }"
+    name: Process Salesforce Star
+    steps: []
+    subgraphs: []
 locations:
   SALESFORCE-SOURCE:
     mappingDefinitions:

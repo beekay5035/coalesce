@@ -7,7 +7,7 @@ steps:
         testsEnabled: true
       database: ""
       deployEnabled: true
-      description: ""
+      description: This is the product dimension
       isMultisource: false
       locationName: TARGET-STAGE
       materializationType: table
@@ -36,7 +36,7 @@ steps:
               columnCounter: 18d3896f-0f0e-43d9-9279-e262c9dd6a31
               stepCounter: d59bf07c-4e86-4d55-af64-c65393cabdac
             dataType: VARCHAR(18)
-            description: ""
+            description: product identifier
             hashColumns: []
             hashDetails: null
             isBusinessKey: true
@@ -51,7 +51,7 @@ steps:
               columnCounter: ef3144f4-bd1c-4416-9540-f4b6fd525f79
               stepCounter: d59bf07c-4e86-4d55-af64-c65393cabdac
             dataType: VARCHAR(765)
-            description: ""
+            description: product name
             hashColumns: []
             hashDetails: null
             name: NAME
