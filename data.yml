@@ -5,18 +5,18 @@ locations:
   SALESFORCE-SOURCE:
     mappingDefinitions:
       "2":
-        database: ""
-        schema: ""
+        database: PC_FIVETRAN_DB
+        schema: SALESFORCE
   TARGET-STAGE:
     mappingDefinitions:
       "2":
-        database: ""
-        schema: ""
+        database: PC_COALESCE_DB_PRD
+        schema: PUBLIC
   TARGET-STAR:
     mappingDefinitions:
       "2":
-        database: ""
-        schema: ""
+        database: PC_COALESCE_DB_PRD
+        schema: PUBLIC
   TEST:
     mappingDefinitions:
       "2":
